@@ -1,0 +1,346 @@
+;;; auto-complete.el --- Inline auto completion
+
+;; Copyright (C) 2008, 2009  MATSUYAMA Tomohiro
+
+;; Author: MATSUYAMA Tomohiro <t.matsuyama.pub@gmail.com>
+;; Keywords: convenience
+;; Version: 0.2.0
+
+;; This program is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
+
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+;;; Commentary:
+;;
+;; This extension provides a way to complete with popup menu like:
+;;
+;;     def-!-
+;;     +-----------------+
+;;     |defun::::::::::::|
+;;     |defvar           |
+;;     |defmacro         |
+;;     |       ...       |
+;;     +-----------------+
+;;
+;; You can complete by typing and selecting menu.
+;; Enjoy!
+
+;;; Qualification:
+;;
+;; This extension can work property on GNU Emacs 22 or higher.
+
+;;; Installation:
+;;
+;; To use this extension, locate all .el files of this package to your load-path directory.
+;;
+;;     $ cp auto-complete-x.x.x/*.el ~/.emacs.d/
+;;
+;; And write following code into your .emacs.
+;;
+;;     (require 'auto-complete)
+;;     (global-auto-complete-mode t)
+
+;;; Tips:
+;;
+;; Use C-n/C-p to select candidates
+;; --------------------------------
+;;
+;; Add following code to your .emacs.
+;; 
+;;     (define-key ac-complete-mode-map "\C-n" 'ac-next)
+;;     (define-key ac-complete-mode-map "\C-p" 'ac-previous)
+;;
+;;
+;; Don't start completion automatically
+;; ------------------------------------
+;;
+;; Add following code to your .emacs.
+;;
+;;     (setq ac-auto-start nil)
+;;     (global-set-key "\M-/" 'ac-start)
+;;
+;; or
+;;
+;;     ;; start completion when entered 3 characters
+;;     (setq ac-auto-start 3)
+;;
+;;
+;; Stop completion
+;; ---------------
+;;
+;; Add following code to your .emacs.
+;;
+;;     (define-key ac-complete-mode-map "\M-/" 'ac-stop)
+;;
+;; Now you can stop completion by pressing M-/.
+;;
+;;
+;; Completion by TAB
+;; -----------------
+;;
+;; Add following code to your .emacs.
+;;
+;;     (define-key ac-complete-mode-map "\t" 'ac-complete)
+;;     (define-key ac-complete-mode-map "\r" nil)
+;;
+;;
+;; Do What I Mean mode
+;; -------------------
+;;
+;; If DWIM (Do What I Mean) mode is enabled,
+;; the following features is available:
+;;
+;; a. TAB (ac-expand) behave as completion (ac-complete)
+;;    when only one candidate is left
+;; b. TAB (ac-expand) behave as completion (ac-complete)
+;;    after you select candidate
+;; c. Disapear automatically when you
+;;    complete a candidate.
+;;
+;; DWIM mode is enabled by default.
+;; You can enable this feature by
+;; setting `ac-dwim' to t.
+;;
+;;     (setq ac-dwim t)
+;;
+;;
+;; Change default sources
+;; ----------------------
+;;
+;;     (setq-default ac-sources '(ac-source-abbrev ac-source-words-in-buffer))
+;;
+;;
+;; Change sources for particular mode
+;; ----------------------------------
+;;
+;;     (add-hook 'emacs-lisp-mode-hook
+;;                 (lambda ()
+;;                   (setq ac-sources '(ac-source-words-in-buffer ac-source-symbols))))
+
+;;; History:
+;;
+;; 2008-03-18
+;;      * auto-complete.el 0.2.0 released
+;;
+;; 2008-03-04
+;;      * fixed menu position bug
+;;
+;; 2008-03-02
+;;      * made a source be able to be just a function which returns candidates
+;;      * added ac-source-words-in-all-buffer
+;;
+;; 2008-03-01
+;;      * added basic cache facility
+;;
+;; 2008-02-20
+;;      * fixed menu position bug at long line (thanks rubikitch <rubikitch@ruby-lang.org>)
+;;      * made dictionary source generator (ac-define-dictionary-source)
+;;      * devided into some files (auto-complete-ruby.el, auto-complete-yasnippet.el, etc)
+;;
+;; 2008-02-19
+;;      * added ac-trigger-commands switch
+;;
+;; 2008-02-10
+;;      * added ac-stop function (suggestion from Andy Stewart)
+;;      * added ac-override-local-map switchlly.
+Positive integer means if a length of a wor((common (try-completion ac-prefix ac-candidates))
+        (buffer-undo-list t))
+    (when (stringp common)
+ ac-point point)
+      (when (not (equal ac-point ac-old-point))
+        (setq ac-old-point point))
+     uded when `ac-prefix' length is larger than REQUIRES-NUM.")
+(make-variable-buffer-local 'ac-sourc\\b")))
+        (save-excursion
+          ;; search backward
+          (goto-char ac-point)
+  
+         (require 'imenu)
+         (setq ac-imenu-index
+               (ignore-errors (imenu--make-index-alistring
+                                      (concat (overlay-get overlay 'prefix)
+                        
+
+
+;;; auto-complete.el --- Inline auto completion
+
+;; Copyright (C) 2008, 2009  MATSUYAMA Tomohiro
+
+;; Author: MATSUYAMA Tomohiro <t.matsuyama.pub@gmail.com>
+;; Keywords: convenience
+;; Version: 0.2.0
+
+;; This program is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
+
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+;;; Commentary:
+;;
+;; This extension provides a way to complete with popup menu like:
+;;
+;;     def-!-
+;;     +-----------------+
+;;     |defun::::::::::::|
+;;     |defvar           |
+;;     |defmacro         |
+;;     |       ...       |
+;;     +-----------------+
+;;
+;; You can complete by typing and selecting menu.
+;; Enjoy!
+
+;;; Qualification:
+;;
+;; This extension can work property on GNU Emacs 22 or higher.
+
+;;; Installation:
+;;
+;; To use this extension, locate all .el files of this package to your load-path directory.
+;;
+;;     $ cp auto-complete-x.x.x/*.el ~/.emacs.d/
+;;
+;; And write following code into your .emacs.
+;;
+;;     (require 'auto-complete)
+;;     (global-auto-complete-mode t)
+
+;;; Tips:
+;;
+;; Use C-n/C-p to select candidates
+;; --------------------------------
+;;
+;; Add following code to your .emacs.
+;; 
+;;     (define-key ac-complete-mode-map "\C-n" 'ac-next)
+;;     (define-key ac-complete-mode-map "\C-p" 'ac-previous)
+;;
+;;
+;; Don't start completion automatically
+;; ------------------------------------
+;;
+;; Add following code to your .emacs.
+;;
+;;     (setq ac-auto-start nil)
+;;     (global-set-key "\M-/" 'ac-start)
+;;
+;; or
+;;
+;;     ;; start completion when entered 3 characters
+;;     (setq ac-auto-start 3)
+;;
+;;
+;; Stop completion
+;; ---------------
+;;
+;; Add following code to your .emacs.
+;;
+;;     (define-key ac-complete-mode-map "\M-/" 'ac-stop)
+;;
+;; Now you can stop completion by pressing M-/.
+;;
+;;
+;; Completion by TAB
+;; -----------------
+;;
+;; Add following code to your .emacs.
+;;
+;;     (define-key ac-complete-mode-map "\t" 'ac-complete)
+;;     (define-key ac-complete-mode-map "\r" nil)
+;;
+;;
+;; Do What I Mean mode
+;; -------------------
+;;
+;; If DWIM (Do What I Mean) mode is enabled,
+;; the following features is available:
+;;
+;; a. TAB (ac-expand) behave as completion (ac-complete)
+;;    when only one candidate is left
+;; b. TAB (ac-expand) behave as completion (ac-complete)
+;;    after you select candidate
+;; c. Disapear automatically when you
+;;    complete a candidate.
+;;
+;; DWIM mode is enabled by default.
+;; You can enable this feature by
+;; setting `ac-dwim' to t.
+;;
+;;     (setq ac-dwim t)
+;;
+;;
+;; Change default sources
+;; ----------------------
+;;
+;;     (setq-default ac-sources '(ac-source-abbrev ac-source-words-in-buffer))
+;;
+;;
+;; Change sources for particular mode
+;; ----------------------------------
+;;
+;;     (add-hook 'emacs-lisp-mode-hook
+;;                 (lambda ()
+;;                   (setq ac-sources '(ac-source-words-in-buffer ac-source-symbols))))
+
+;;; History:
+;;
+;; 2008-03-18
+;;      * auto-complete.el 0.2.0 released
+;;
+;; 2008-03-04
+;;      * fixed menu position bug
+;;
+;; 2008-03-02
+;;      * made a source be able to be just a function which returns candidates
+;;      * added ac-source-words-in-all-buffer
+;;
+;; 2008-03-01
+;;      * added basic cache facility
+;;
+;; 2008-02-20
+;;      * fixed menu position bug at long line (thanks rubikitch <rubikitch@ruby-lang.org>)
+;;      * made dictionary source generator (ac-define-dictionary-source)
+;;      * devided into some files (auto-complete-ruby.el, auto-complete-yasnippet.el, etc)
+;;
+;; 2008-02-19
+;;      * added ac-trigger-commands switch
+;;
+;; 2008-02-10
+;;      * added ac-stop function (lly.
+Positive integer means if a length of a word you entered is              (count-lines (window-start) (point)))))
+                -1
+              1))
+((common (try-completion ac-prefix ac-candidates))
+        (buffer-undo-list t))
+    (when (stringp common)
+ac-point point)
+      (when (not (equal ac-point ac-old-point))
+        (setq ac-old-point point))
+      (seuded when `ac-prefix' length is larger than REQUIRES-NUM.")
+(make-variable-buffer-\\b")))
+        (save-excursion
+          ;; search backward
+          (goto-char ac-point)
+          (while (
+         (require 'imenu)
+         (setq ac-imenu-index
+               (ignore-errors (imenu--make-index-astring
+                                      (concat (overlay-get overlay 'prefix)
+    

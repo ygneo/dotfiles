@@ -1,0 +1,369 @@
+Downloading/unpacking ropemacs
+  Getting page http://pypi.python.org/simple/ropemacs
+  URLs to search for versions for ropemacs:
+  * http://pypi.python.org/simple/ropemacs
+  Getting page http://rope.sf.net/ropemacs.html
+  Getting page http://rope.sf.net/
+Exception:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 252, in main
+    self.run(options, args)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 408, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1750, in install_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1016, in find_requirement
+    for page in self._get_pages(locations, req):
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1097, in _get_pages
+    t.join()
+  File "/usr/lib/python2.6/threading.py", line 644, in join
+    self.__block.wait()
+  File "/usr/lib/python2.6/threading.py", line 239, in wait
+    waiter.acquire()
+KeyboardInterrupt
+------------------------------------------------------------
+/usr/bin/pip run on Sun Jan 30 20:59:52 2011
+Downloading/unpacking ropemacs
+  Getting page http://pypi.python.org/simple/ropemacs
+  URLs to search for versions for ropemacs:
+  * http://pypi.python.org/simple/ropemacs
+  Getting page http://rope.sf.net/ropemacs.html
+  Getting page http://rope.sf.net/
+  Analyzing links from page http://pypi.python.org/simple/ropemacs/
+    Skipping link http://rope.sf.net/ropemacs.html (from http://pypi.python.org/simple/ropemacs/); unknown archive format: .html
+    Skipping link http://rope.sf.net/ (from http://pypi.python.org/simple/ropemacs/); not a file
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://pypi.python.org/simple/ropemacs/); unknown archive format: .html
+    Skipping link http://www.iro.umontreal.ca/%7epinard/pymacs/ (from http://pypi.python.org/simple/ropemacs/); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/
+    Skipping link http://pypi.python.org/pypi/rope (from http://rope.sourceforge.net/); not a file
+    Skipping link http://pypi.python.org/pypi/rope_py3k (from http://rope.sourceforge.net/); not a file
+    Skipping link http://rope.sourceforge.net/library.html (from http://rope.sourceforge.net/); unknown archive format: .html
+    Skipping link http://rope.sourceforge.net/overview.html (from http://rope.sourceforge.net/); unknown archive format: .html
+    Skipping link http://rope.sourceforge.net/ropemacs.html (from http://rope.sourceforge.net/); unknown archive format: .html
+    Skipping link http://rope.sourceforge.net/ropevim.html (from http://rope.sourceforge.net/); unknown archive format: .html
+    Skipping link http://www.die-offenbachs.de/eric/index.html (from http://rope.sourceforge.net/); unknown archive format: .html
+    Skipping link http://code.google.com/p/spyderlib/ (from http://rope.sourceforge.net/); not a file
+    Skipping link http://github.com/baverman/snaked (from http://rope.sourceforge.net/); not a file
+    Skipping link http://rope.sourceforge.net/ropeide.html (from http://rope.sourceforge.net/); unknown archive format: .html
+    Skipping link http://rope.sourceforge.net/contributing.htm (from http://rope.sourceforge.net/); unknown archive format: .htm
+    Skipping link http://bitbucket.org/agr/rope (from http://rope.sourceforge.net/); not a file
+    Skipping link http://bitbucket.org/zjes/rope_py3k (from http://rope.sourceforge.net/); not a file
+    Skipping link http://bitbucket.org/agr/rope/get/tip.gz (from http://rope.sourceforge.net/); unknown archive format: .gz
+    Skipping link http://bitbucket.org/zjes/rope_py3k/get/tip.gz (from http://rope.sourceforge.net/); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Could not find any downloads that satisfy the requirement ropemacs
+No distributions at all found for ropemacs
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 252, in main
+    self.run(options, args)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 408, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1750, in install_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1029, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+DistributionNotFound: No distributions at all found for ropemacs
+------------------------------------------------------------
+/usr/bin/pip run on Sun Jan 30 21:07:50 2011
+Downloading/unpacking ropemacs
+  Getting page http://pypi.python.org/simple/ropemacs
+  URLs to search for versions for ropemacs:
+  * http://pypi.python.org/simple/ropemacs
+  Getting page http://rope.sf.net/ropemacs.html
+  Getting page http://rope.sf.net/
+  Analyzing links from page http://pypi.python.org/simple/ropemacs/
+    Skipping link http://rope.sf.net/ropemacs.html (from http://pypi.python.org/simple/ropemacs/); unknown archive format: .html
+    Skipping link http://rope.sf.net/ (from http://pypi.python.org/simple/ropemacs/); not a file
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://pypi.python.org/simple/ropemacs/); unknown archive format: .html
+    Skipping link http://www.iro.umontreal.ca/%7epinard/pymacs/ (from http://pypi.python.org/simple/ropemacs/); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/
+    Skipping link http://pypi.python.org/pypi/rope (from http://rope.sourceforge.net/); not a file
+    Skipping link http://pypi.python.org/pypi/rope_py3k (from http://rope.sourceforge.net/); not a file
+    Skipping link http://rope.sourceforge.net/library.html (from http://rope.sourceforge.net/); unknown archive format: .html
+    Skipping link http://rope.sourceforge.net/overview.html (from http://rope.sourceforge.net/); unknown archive format: .html
+    Skipping link http://rope.sourceforge.net/ropemacs.html (from http://rope.sourceforge.net/); unknown archive format: .html
+    Skipping link http://rope.sourceforge.net/ropevim.html (from http://rope.sourceforge.net/); unknown archive format: .html
+    Skipping link http://www.die-offenbachs.de/eric/index.html (from http://rope.sourceforge.net/); unknown archive format: .html
+    Skipping link http://code.google.com/p/spyderlib/ (from http://rope.sourceforge.net/); not a file
+    Skipping link http://github.com/baverman/snaked (from http://rope.sourceforge.net/); not a file
+    Skipping link http://rope.sourceforge.net/ropeide.html (from http://rope.sourceforge.net/); unknown archive format: .html
+    Skipping link http://rope.sourceforge.net/contributing.htm (from http://rope.sourceforge.net/); unknown archive format: .htm
+    Skipping link http://bitbucket.org/agr/rope (from http://rope.sourceforge.net/); not a file
+    Skipping link http://bitbucket.org/zjes/rope_py3k (from http://rope.sourceforge.net/); not a file
+    Skipping link http://bitbucket.org/agr/rope/get/tip.gz (from http://rope.sourceforge.net/); unknown archive format: .gz
+    Skipping link http://bitbucket.org/zjes/rope_py3k/get/tip.gz (from http://rope.sourceforge.net/); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Analyzing links from page http://rope.sourceforge.net/ropemacs.html
+    Skipping link http://rope.sourceforge.net/index.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pymacs.progiciels-bpi.ca/pymacs.html (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .html
+    Skipping link http://pypi.python.org/pypi/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://pypi.python.org/pypi/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemacs/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://bitbucket.org/agr/ropemode (from http://rope.sourceforge.net/ropemacs.html); not a file
+    Skipping link http://bitbucket.org/agr/ropemode/get/tip.gz (from http://rope.sourceforge.net/ropemacs.html); unknown archive format: .gz
+    Skipping link http://groups.google.com/group/rope-dev (from http://rope.sourceforge.net/ropemacs.html); not a file
+  Could not find any downloads that satisfy the requirement ropemacs
+No distributions at all found for ropemacs
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 252, in main
+    self.run(options, args)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 408, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1750, in install_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1029, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+DistributionNotFound: No distributions at all found for ropemacs

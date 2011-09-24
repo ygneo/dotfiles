@@ -1,0 +1,54 @@
+/home/ygneo/webs/daguerro/cms/views.py
+/home/ygneo/webs/daguerro/cms/#views.py#
+/home/ygneo/webs/daguerro/settings.py.tpl
+/home/ygneo/webs/daguerro/#settings.py.tpl#
+/home/ygneo/webs/daguerro/settings.py
+/home/ygneo/webs/daguerro/#settings.py#
+/home/ygneo/webs/daguerro/cms/context_processors.py
+/home/ygneo/webs/daguerro/cms/#context_processors.py#
+/home/ygneo/webs/daguerro/templates/daguerro/base_admin.html
+/home/ygneo/webs/daguerro/templates/daguerro/#base_admin.html#
+/home/ygneo/webs/daguerro/templates/daguerro/gallery.html
+/home/ygneo/webs/daguerro/templates/daguerro/#gallery.html#
+/home/ygneo/webs/daguerro/cms/urls.py
+/home/ygneo/webs/daguerro/cms/#urls.py#
+/home/ygneo/webs/daguerro/media/daguerro/css/admin_styles.css
+/home/ygneo/webs/daguerro/media/daguerro/css/#admin_styles.css#
+/home/ygneo/webs/daguerro/templates/daguerro/photo.html
+/home/ygneo/webs/daguerro/templates/daguerro/#photo.html#
+/home/ygneo/webs/daguerro/cms/forms.py
+/home/ygneo/webs/daguerro/cms/#forms.py#
+/home/ygneo/webs/daguerro/photologue/models.py
+/home/ygneo/webs/daguerro/photologue/#models.py#
+/usr/local/lib/python2.6/dist-packages/django/contrib/admin/templates/admin/change_form.html
+/usr/local/lib/python2.6/dist-packages/django/contrib/admin/templates/admin/#change_form.html#
+/home/ygneo/webs/daguerro/templates/photologue/photo_detail.html
+/home/ygneo/webs/daguerro/templates/photologue/#photo_detail.html#
+/home/ygneo/webs/daguerro/photologue/widgets.py
+/home/ygneo/webs/daguerro/photologue/#widgets.py#
+/home/ygneo/webs/daguerro/photologue/admin.py
+/home/ygneo/webs/daguerro/photologue/#admin.py#
+/home/ygneo/webs/daguerro/media/website/css/style.css
+/home/ygneo/webs/daguerro/media/website/css/#style.css#
+/home/ygneo/webs/daguerro/templates/website/sub.html
+/home/ygneo/webs/daguerro/templates/website/#sub.html#
+/home/ygneo/webs/daguerro/templates/daguerro/{{ category.title_slug }}
+/home/ygneo/webs/daguerro/templates/daguerro/#{{ category.title_slug }}#
+/home/ygneo/webs/daguerro/website/views.py
+/home/ygneo/webs/daguerro/website/#views.py#
+/home/ygneo/webs/daguerro/media/daguerro/css/admin-styles.css
+/home/ygneo/webs/daguerro/media/daguerro/css/#admin-styles.css#
+/home/ygneo/webs/daguerro/templates/daguerro/{{ category.photo.get_categoria_url }}
+/home/ygneo/webs/daguerro/templates/daguerro/#{{ category.photo.get_categoria_url }}#
+/home/ygneo/webs/daguerro/cms/templatetags/tabs.py
+/home/ygneo/webs/daguerro/cms/templatetags/#tabs.py#
+/home/ygneo/webs/daguerro/cms/templatetags/__init__.py
+/home/ygneo/webs/daguerro/cms/templatetags/#__init__.py#
+/home/ygneo/webs/daguerro/cms/templatetags
+/home/ygneo/webs/daguerro/cms/#templatetags#
+/home/ygneo/webs/daguerro/templates/daguerro/login.html
+/home/ygneo/webs/daguerro/templates/daguerro/#login.html#
+/home/ygneo/webs/daguerro/media/website/js/efectos.js
+/home/ygneo/webs/daguerro/media/website/js/#efectos.js#
+/home/ygneo/webs/daguerro/templates/website/base.html
+/home/ygneo/webs/daguerro/templates/website/#base.html#

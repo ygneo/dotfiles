@@ -1,0 +1,34 @@
+/home/ygneo/webs/barres/media/daguerro/css/admin_styles.css
+/home/ygneo/webs/barres/media/daguerro/css/#admin_styles.css#
+/home/ygneo/webs/barres/daguerro/views.py
+/home/ygneo/webs/barres/daguerro/#views.py#
+/home/ygneo/webs/barres/daguerro/shorcuts.py
+/home/ygneo/webs/barres/daguerro/#shorcuts.py#
+/home/ygneo/webs/barres/templates/daguerro/{% url daguerro-photo-delete current_categoy.slugs_path form.instance.id %}
+/home/ygneo/webs/barres/templates/daguerro/#{% url daguerro-photo-delete current_categoy.slugs_path form.instance.id %}#
+/home/ygneo/webs/barres/templates/daguerro/photo.html
+/home/ygneo/webs/barres/templates/daguerro/#photo.html#
+/home/ygneo/webs/barres/daguerro/forms.py
+/home/ygneo/webs/barres/daguerro/#forms.py#
+/home/ygneo/webs/barres/daguerro/utils.py
+/home/ygneo/webs/barres/daguerro/#utils.py#
+/home/ygneo/webs/barres/templates/daguerro/gallery.html
+/home/ygneo/webs/barres/templates/daguerro/#gallery.html#
+/home/ygneo/webs/barres/daguerro/urls.py
+/home/ygneo/webs/barres/daguerro/#urls.py#
+/home/ygneo/webs/barres/templates/daguerro/{% url daguerro-photo-delete form.fieldsets. %}
+/home/ygneo/webs/barres/templates/daguerro/#{% url daguerro-photo-delete form.fieldsets. %}#
+/home/ygneo/webs/barres/media/daguerro/ur
+/home/ygneo/webs/barres/media/daguerro/#ur#
+/usr/local/lib/python2.6/dist-packages/django/contrib/admin/templates/admin/change_form.html
+/usr/local/lib/python2.6/dist-packages/django/contrib/admin/templates/admin/#change_form.html#
+/usr/local/lib/python2.6/dist-packages/django/contrib/admin/templates/admin/includes/fieldset.html
+/usr/local/lib/python2.6/dist-packages/django/contrib/admin/templates/admin/includes/#fieldset.html#
+/usr/local/lib/python2.6/dist-packages/django/contrib/admin/templates/admin/actions.html
+/usr/local/lib/python2.6/dist-packages/django/contrib/admin/templates/admin/#actions.html#
+/usr/local/lib/python2.6/dist-packages/django/contrib/admin/templates/admin/prepopulated_fields_js.html
+/usr/local/lib/python2.6/dist-packages/django/contrib/admin/templates/admin/#prepopulated_fields_js.html#
+/home/ygneo/webs/barres/local_settings/ygneo-laptop.py
+/home/ygneo/webs/barres/local_settings/#ygneo-laptop.py#
+/home/ygneo/webs/barres/settings.py
+/home/ygneo/webs/barres/#settings.py#

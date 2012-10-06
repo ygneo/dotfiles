@@ -27,3 +27,5 @@
 (require 'django-mode)
 (add-to-list 'auto-mode-alist '("\.djhtml$" . django-html-mode))
 
+(require 'uniquify)
+(setq uniquify-buffer-name-style 'forward)

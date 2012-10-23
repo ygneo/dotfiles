@@ -27,5 +27,10 @@
 (require 'django-mode)
 (add-to-list 'auto-mode-alist '("\.djhtml$" . django-html-mode))
 
+(autoload 'puppet-mode "puppet-mode" "Load puppet-mode")
+(add-to-list 'auto-mode-alist '("\\.pp$" . puppet-mode))
+
 (require 'uniquify)
 (setq uniquify-buffer-name-style 'forward)
+
+(require 'dirtree)

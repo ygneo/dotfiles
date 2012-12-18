@@ -34,3 +34,17 @@
 (setq uniquify-buffer-name-style 'forward)
 
 (require 'dirtree)
+
+(require 'magit)
+
+(require 'rspec-mode)
+
+(setq ido-enable-flex-matching t)
+(setq ido-everywhere t)
+(ido-mode 1)
+
+(require 'haml-mode)
+(add-hook 'haml-mode-hook
+          (lambda ()
+            (setq indent-tabs-mode nil)
+            (define-key haml-mode-map "\C-m" 'newline-and-indent)))

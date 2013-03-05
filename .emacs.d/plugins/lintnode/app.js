@@ -124,7 +124,7 @@ function parseCommandLine() {
             });
         }
     }
-    if (set_index > -1) {
+    if (set_index > -1 && process.argv[set_index + 1]) {
         set_opts = process.argv[set_index + 1].split(",");
         if (set_opts.length > 0 && set_opts[0] !== '') {
             _.each(set_opts, function (opt) {

@@ -6,10 +6,13 @@
 ;; Config for python editing
 (setq-default indent-tabs-mode nil)    ; use only spaces and no tabs
 (setq default-tab-width 4)
+(setq js-indent-level 2)
 
 (setq ido-enable-flex-matching t)
 (setq ido-everywhere t)
 (ido-mode 1)
+
+(add-hook 'before-save-hook 'whitespace-cleanup)
 
 ;(require 'pymacs)
 ;(pymacs-load "ropemacs" "rope-")
@@ -64,8 +67,7 @@
 ;; Make sure we can find the lintnode executable
 (setq lintnode-location "~/.emacs.d/plugins/lintnode/")
 (setq lintnode-node-program "nodejs")
-;; JSLint can be... opinionated
-(setq lintnode-jslint-excludes (list 'nomen 'undef 'plusplus 'onevar 'white))
+(setq lintnode-jslint-excludes (list 'nomen 'plusplus 'onevar 'white))
 ;; Start the server when we first open a js file and start checking
 (add-hook 'js-mode-hook
           (lambda ()
@@ -74,5 +76,5 @@
 (add-to-list 'load-path "~/.emacs.d/plugins/flymake-cursor/")
 (require 'flymake-cursor)
 (custom-set-variables
-     '(help-at-pt-timer-delay 0.1
-     '(help-at-pt-display-when-idle '(flymake-overlay))))
+      '(help-at-pt-timer-delay 0.1
+      '(help-at-pt-display-when-idle '(flymake-overlay))))

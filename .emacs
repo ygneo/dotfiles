@@ -1,3 +1,5 @@
+(server-start)
+
 ;; Clipboard copy & paste
 (global-set-key "\C-w" 'clipboard-kill-region)
 (global-set-key "\M-w" 'clipboard-kill-ring-save)
@@ -27,10 +29,10 @@
 (require 'yasnippet)
 (yas/initialize)
 (yas/load-directory "~/.emacs.d/plugins/yasnippet/snippets")
-(yas/load-directory "~/.emacs.d/plugins/django-mode/snippets") 
+(yas/load-directory "~/.emacs.d/plugins/django-mode/snippets")
 
 (add-to-list 'load-path "~/.emacs.d/plugins/django-html-mode/")
-(require 'django-html-mode) 
+(require 'django-html-mode)
 (add-to-list 'auto-mode-alist '("\.djhtml$" . django-html-mode))
 (add-to-list 'load-path "~/.emacs.d/plugins/django-mode/")
 (require 'django-mode)

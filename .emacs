@@ -16,6 +16,8 @@
 
 (add-hook 'before-save-hook 'whitespace-cleanup)
 
+(require 'magit)
+
 ;(require 'pymacs)
 ;(pymacs-load "ropemacs" "rope-")
 ;(setq ropemacs-enable-autoimport t)
@@ -68,13 +70,14 @@
 ;; Make sure we can find the lintnode executable
 (setq lintnode-location "~/.emacs.d/plugins/lintnode/")
 (setq lintnode-node-program "nodejs")
-(setq lintnode-jslint-excludes (list 'nomen 'plusplus 'onevar 'white))
-(setq lintnode-jslint-set "indent:2,sloppy:true,nomem:true,devel:true")
-(setq lintnode-autostart t)
+;; (setq lintnode-jslint-excludes (list 'plusplus 'onevar 'white))
+;; (setq lintnode-jslint-includes (list 'sloppy 'nomen 'devel))
+;(setq lintnode-autostart t)
 ;; Start the server when we first open a js file and start checking
-(add-hook 'js-mode-hook
-          (lambda ()
-            (lintnode-hook)))
+;; (add-hook 'js-mode-hook
+;;           (lambda ()
+;;             (lintnode-hook)))
+
 
 (require 'flymake-jslint)
      (add-hook 'js-mode-hook

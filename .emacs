@@ -63,6 +63,11 @@
 (add-to-list 'load-path "~/.emacs.d/plugins/rspec-mode/")
 (require 'rspec-mode)
 
+(add-to-list 'load-path "~/.emacs.d/plugins/coffee-mode/")
+(require 'coffee-mode)
+(add-to-list 'auto-mode-alist '("\\.coffee$" . coffee-mode))
+(add-to-list 'auto-mode-alist '("Cakefile" . coffee-mode))
+
 (add-to-list 'load-path "~/.emacs.d/plugins/haml-mode/")
 (require 'haml-mode)
 (add-hook 'haml-mode-hook

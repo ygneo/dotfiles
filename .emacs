@@ -16,6 +16,9 @@
 
 (add-hook 'before-save-hook 'whitespace-cleanup)
 
+(add-to-list 'load-path "~/.emacs.d/plugins/magit-1.2.0/")
+(require 'magit)
+
 (require 'magit)
 (global-set-key (kbd "C-x g") 'magit-status)
 (eval-after-load 'magit
@@ -56,9 +59,6 @@
 
 (add-to-list 'load-path "~/.emacs.d/plugins/dirtree-mode/")
 (require 'dirtree)
-
-(add-to-list 'load-path "~/.emacs.d/plugins/magit-1.2.0/")
-(require 'magit)
 
 (add-to-list 'load-path "~/.emacs.d/plugins/rspec-mode/")
 (require 'rspec-mode)

@@ -13,8 +13,8 @@ sudo sh -c "echo deb https://get.docker.com/ubuntu docker main > /etc/apt/source
 
 ## Install packages ##
 
-REQUIRED_PACKAGES="chromium-browser hamster-indicator terminator vim ipython python-pip virtualenvwrapper pidgin lxc-docker vmware-manager emacs23"
-OPTIONAL_PACKAGES="postgresql-client libpq-dev libgeos-dev python-dev libmysqlclient-dev mysql-server mercurial"
+REQUIRED_PACKAGES="chromium-browser hamster-indicator terminator vim ipython python-pip virtualenvwrapper pidgin lxc-docker virtualbox emacs23"
+OPTIONAL_PACKAGES="postgresql-client libpq-dev libgeos-dev python-dev libmysqlclient-dev mysql-server mercurial pepperflashplugin-nonfree"
 SYSTEM_PACKAGES="$REQUIRED_PACKAGES $OPTIONAL_PACKAGES"
 
 sudo apt-get update && sudo apt-get upgrade

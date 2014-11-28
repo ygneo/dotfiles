@@ -13,7 +13,7 @@ sudo sh -c "echo deb https://get.docker.com/ubuntu docker main > /etc/apt/source
 
 ## Install packages ##
 
-REQUIRED_PACKAGES="chromium-browser hamster-indicator terminator vim ipython python-pip virtualenvwrapper pidgin lxc-docker virtualbox emacs23"
+REQUIRED_PACKAGES="chromium-browser hamster-indicator terminator vim ipython python-pip virtualenvwrapper pidgin lxc-docker virtualbox emacs23 openvpn"
 OPTIONAL_PACKAGES="postgresql-client libpq-dev libgeos-dev python-dev libmysqlclient-dev mysql-server mercurial pepperflashplugin-nonfree"
 SYSTEM_PACKAGES="$REQUIRED_PACKAGES $OPTIONAL_PACKAGES"
 
@@ -40,9 +40,15 @@ if [ ! -d ~/dev ]; then
    mkdir ~/dev
 fi
 
+if [ ! -d ~/vpns ]; then
+   mkdir ~/vpns
+fi
+
 # TODO: clone repos if they're not present
 
 # TODO: create virtualenv / dockers
+
+  # TODO: keep in this repo virtualenvs hooks (whole directories?)
 
 ## Configure packages ##
 

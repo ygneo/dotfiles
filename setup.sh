@@ -58,5 +58,9 @@ fi
 # git
 git config --global user.email "antonio.barcia@gmail.com"
 git config --global user.name "ygneo"
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
 
 # TODO pidgin configuration file

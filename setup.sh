@@ -44,6 +44,9 @@ if [ ! -d ~/vpns ]; then
    mkdir ~/vpns
 fi
 
+# TODO: Add /etc/hosts to this repo and ln -s to /etc
+# This repo must be private first
+
 # TODO: clone repos if they're not present
 
 # TODO: create virtualenv / dockers

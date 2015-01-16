@@ -13,8 +13,9 @@ sudo sh -c "echo deb https://get.docker.com/ubuntu docker main > /etc/apt/source
 
 ## Install packages ##
 
-REQUIRED_PACKAGES="chromium-browser hamster-indicator terminator vim ipython python-pip virtualenvwrapper pidgin lxc-docker virtualbox emacs23 openvpn gimp apache2-utils"
+REQUIRED_PACKAGES="chromium-browser hamster-indicator terminator vim ipython python-pip virtualenvwrapper pidgin lxc-docker virtualbox emacs23 openvpn gimp apache2-utils filezilla unrar pwgen"
 OPTIONAL_PACKAGES="postgresql-client libpq-dev libgeos-dev python-dev libmysqlclient-dev mysql-server mercurial pepperflashplugin-nonfree"
+POSTGIS_PACKAGES="postgis* pgadmin3"
 SYSTEM_PACKAGES="$REQUIRED_PACKAGES $OPTIONAL_PACKAGES"
 
 sudo apt-get update && sudo apt-get upgrade
@@ -43,6 +44,10 @@ fi
 if [ ! -d ~/vpns ]; then
    mkdir ~/vpns
 fi
+
+# sudo
+
+source add_sudoer_commands.sh
 
 # TODO: Add /etc/hosts to this repo and ln -s to /etc
 # This repo must be private first

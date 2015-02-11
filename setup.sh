@@ -13,8 +13,8 @@ sudo sh -c "echo deb https://get.docker.com/ubuntu docker main > /etc/apt/source
 
 ## Install packages ##
 
-REQUIRED_PACKAGES="chromium-browser hamster-indicator terminator vim ipython python-pip virtualenvwrapper pidgin lxc-docker virtualbox emacs23 openvpn gimp apache2-utils filezilla unrar pwgen curl python-tk idle python-pmwX"
-OPTIONAL_PACKAGES="postgresql-client libpq-dev libgeos-dev python-dev libmysqlclient-dev mysql-server mercurial pepperflashplugin-nonfree "
+REQUIRED_PACKAGES="chromium-browser hamster-indicator terminator vim ipython python-pip virtualenvwrapper pidgin lxc-docker virtualbox emacs23 openvpn gimp apache2-utils filezilla unrar pwgen curl python-tk idle python-pmw libjpeg8 libjpeg-dev libfreetype6 libfreetype6-dev"
+OPTIONAL_PACKAGES="postgresql-client libpq-dev libgeos-dev python-dev libmysqlclient-dev mysql-server mercurial pepperflashplugin-nonfree gitg npm"
 POSTGIS_PACKAGES="postgis* pgadmin3"
 SYSTEM_PACKAGES="$REQUIRED_PACKAGES $OPTIONAL_PACKAGES"
 

@@ -16,6 +16,7 @@
 
 (require 'iso-transl)
 
+
 (add-hook 'before-save-hook 'whitespace-cleanup)
 
 (add-to-list 'load-path "~/.emacs.d/plugins/magit-1.2.0/")

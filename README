@@ -1,1 +1,4 @@
-Test.
+Debian packages requirements:
+---
+
+flake8 ack-grep

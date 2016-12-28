@@ -32,14 +32,16 @@ values."
                                          "~/dotfiles/"
                                          )
           )
-     python
-     ;; markdown
+     (python :variables
+             (flycheck-mode 1)
+             )
+     markdown
      ;; org
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
      ;; spell-checking
-     ;; syntax-checking
+     syntax-checking
      ;; version-control
      )
    ;; List of additional packages that will be installed without being
@@ -256,7 +258,9 @@ This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place you code here.
   "
-  (global-git-commit-mode t)
+  (global-git-commit-mode t) 
+  (global-hl-line-mode 1) ; Line highlight
+  (global-linum-mode) ; Show line numbers by default
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
